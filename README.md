@@ -10,8 +10,8 @@ This command line tool was created to scan through my Wells Fargo PDF statements
 
 ##Output
 
-| Date   | Description               | Amount               |
-|----------|---------------------------|
+| Date  | Description               | Amount               |
+|----------|----------|---------------------------|
 | 5/5/15   | 272 - Check               | 970               |
 | 4/17/15   | ...               | 521               |
 | 3/26/15   | ...               | 500               |
