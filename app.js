@@ -19,7 +19,7 @@ fs.readdir('./tax', function (err, files) {
                         withdrawl = parseFloat(chunks[i + 3]);
                         description = chunks[i + 1] + " - " + chunks[i + 2];
                     }
-                    if (withdrawl > 70) {
+                    if (withdrawl > parseInt(process.argv[2])) {
                         var line = '"' + chunks[i] + '/2015","' + description + '","' + withdrawl + '"\n';
                         console.log(line);
                         fs.appendFile('tax.csv', line, function (err) {
