@@ -8,7 +8,7 @@ This command line tool was created to scan through my Wells Fargo PDF statements
 2. Edit the minimum dollar amount for transactions to be included (set to 70 currently)
 3. node app.js {integer}
 
-##Output
+## Output
 
 | Date  | Description               | Amount               |
 |----------|----------|---------------------------|
